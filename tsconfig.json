@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "emitDeclarationOnly": false,
+    "declaration": true,
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM"
+    ],
+    "target": "ESNext",
+    "module": "ESNext",
+    "newLine": "LF",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "outDir": "./dist"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "./src"
+  ]
+}
