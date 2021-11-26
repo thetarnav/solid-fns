@@ -8,7 +8,6 @@
       "DOM"
     ],
     "target": "ESNext",
-    "module": "ESNext",
     "newLine": "LF",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,

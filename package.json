@@ -1,6 +1,6 @@
 {
   "name": "solid-fns",
-  "version": "0.0.100",
+  "version": "0.0.150",
   "description": "A bunch of reactive utility types and functions, for building primitives with Solid.js",
   "author": "Damian Tarnawski @thetarnav <gthetarnav@gmail.com>",
   "license": "MIT",
@@ -22,11 +22,10 @@
     "default": "./dist/index.js"
   },
   "sideEffects": false,
-  "type": "module",
   "scripts": {
     "prebuild": "npm run clean",
     "clean": "rimraf dist/",
-    "build": "tsc && tsc --target es5 --module commonjs --declaration false --outDir ./dist/cjs",
+    "build": "tsc && tsc -p ./tsconfig-cjs.json",
     "test": "uvu -r solid-register"
   },
   "keywords": [
