@@ -1,1 +1,1 @@
-# @thetarnav/solid-utils
+# solid-fns

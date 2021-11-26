@@ -1,5 +1,5 @@
 {
-  "name": "@thetarnav/solid-utils",
+  "name": "solid-fns",
   "version": "0.0.100",
   "description": "A bunch of reactive utility types and functions, for building primitives with Solid.js",
   "author": "Damian Tarnawski @thetarnav <gthetarnav@gmail.com>",
