@@ -10,7 +10,6 @@
     "url": "git+https://github.com/thetarnav/solid-fns.git"
   },
   "private": false,
-  "type": "module",
   "files": [
     "dist"
   ],
