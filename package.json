@@ -10,22 +10,23 @@
     "url": "git+https://github.com/thetarnav/solid-fns.git"
   },
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "types": "dist/index.d.ts",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
   "exports": {
-    "require": "./dist/cjs/index.js",
-    "import": "./dist/index.js",
-    "default": "./dist/index.js"
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
   },
   "sideEffects": false,
   "scripts": {
     "prebuild": "npm run clean",
     "clean": "rimraf dist/",
-    "build": "tsc && tsc -p ./tsconfig-cjs.json",
+    "build": "npx unbuild",
     "test": "uvu -r solid-register"
   },
   "keywords": [
@@ -35,6 +36,7 @@
     "primitives"
   ],
   "devDependencies": {
+    "@types/node": "^16.11.10",
     "jsdom": "^18.1.1",
     "prettier": "^2.4.1",
     "rimraf": "^3.0.2",
