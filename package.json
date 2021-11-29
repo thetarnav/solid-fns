@@ -1,13 +1,13 @@
 {
   "name": "solid-fns",
-  "version": "0.0.150",
+  "version": "0.0.151",
   "description": "A bunch of reactive utility types and functions, for building primitives with Solid.js",
   "author": "Damian Tarnawski @thetarnav <gthetarnav@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/thetarnav/solid-utils#readme",
+  "homepage": "https://github.com/thetarnav/solid-fns#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thetarnav/solid-utils.git"
+    "url": "git+https://github.com/thetarnav/solid-fns.git"
   },
   "private": false,
   "main": "dist/index.js",
@@ -29,7 +29,7 @@
     "test": "uvu -r solid-register"
   },
   "keywords": [
-    "utils",
+    "utilities",
     "reactivity",
     "solid",
     "primitives"
